@@ -6,7 +6,7 @@
     external
   >
     <div class="max-w-sm">
-      <h3 class="text-sm font-medium group-hover:text-primary-600">
+      <h3 class="text-sm font-medium group-hover:text-lightaccent dark:group-hover:text-darkaccent">
         {{ project.name }}
       </h3>
       <p class="text-gray-400 text-sm">{{ project.description }}</p>

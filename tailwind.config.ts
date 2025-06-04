@@ -10,6 +10,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        "lightaccent": "#cb2a42",
+        "darkaccent": "#2abc89",
+        "mydark": "#1d1f20",
+      },
       boxShadow: {
         zoop: "rgba(102, 109, 128, 0.08) 0px 1.2672px 1.2672px 0px, rgba(102, 109, 128, 0.08) 0px 5.06879px 10.1376px 0px",
         zoopdark:
@@ -35,8 +40,8 @@ module.exports = {
         '"Noto Color Emoji"',
       ],
       mono: [
-        "Cascadia Code",
         "ui-monospace",
+        "Cascadia Code",
         "SFMono-Regular",
         "Menlo",
         "Monaco",

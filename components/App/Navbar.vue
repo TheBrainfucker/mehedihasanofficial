@@ -11,13 +11,13 @@
           >
             <ULink
               :to="item.path"
-              class="relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400"
-              active-class="text-primary-600 dark:text-primary-400"
+              class="relative px-3 py-4 flex items-center justify-center transition hover:text-lightaccent dark:hover:text-darkaccent"
+              active-class="text-lightaccent dark:text-darkaccent"
             >
               <Icon aria-hidden="true" :name="item.icon" class="w-5 h-5 z-10" />
               <span
                 v-if="$route.path === item.path"
-                class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0"
+                class="absolute inset-x-1 -bottom-0.5 h-0.5 bg-gradient-to-r from-lightaccent/0 via-lightaccent/70 to-lightaccent/0 dark:from-darkaccent/0 dark:via-darkaccent/40 dark:to-darkaccent/0"
               ></span>
               <span
                 v-if="$route.path === item.path"
@@ -45,23 +45,23 @@ const items = [
   { name: "Home", path: "/", icon: "solar:home-smile-outline" },
   {
     name: "Projects",
-    path: "/projects",
+    path: "/projects/",
     icon: "solar:folder-with-files-outline",
   },
   {
     name: "Articles",
-    path: "/articles",
+    path: "/articles/",
     icon: "solar:document-add-outline",
   },
-  { name: "Lab", path: "/lab", icon: "heroicons:beaker" },
+  { name: "Lab", path: "/lab/", icon: "heroicons:beaker" },
   {
     name: "What's in my bag?",
-    path: "/whats-in-my-bag",
+    path: "/whats-in-my-bag/",
     icon: "solar:backpack-outline",
   },
   {
     name: "Bookmarks",
-    path: "/bookmarks",
+    path: "/bookmarks/",
     icon: "solar:bookmark-linear",
   },
 ];

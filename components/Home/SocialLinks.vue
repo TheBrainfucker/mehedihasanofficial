@@ -10,7 +10,7 @@
         external
         class="flex items-end gap-4 dark:hover:text-gray-300 group"
       >
-        <span class="text-sm">
+        <span class="text-sm group-hover:text-lightaccent dark:group-hover:text-darkaccent">
           {{ link.name }}
         </span>
         <div

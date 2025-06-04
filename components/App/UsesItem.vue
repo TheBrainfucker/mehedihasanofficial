@@ -2,7 +2,7 @@
   <li>
     <NuxtLink :to="item.url" class="group" target="_blank" external>
       <p
-        class="text-base font-semibold text-gray-700 dark:text-gray-300 group-hover:text-primary-600"
+        class="text-base font-semibold text-gray-700 dark:text-gray-300 group-hover:text-lightaccent dark:group-hover:text-darkaccent"
       >
         {{ item.name }}
       </p>

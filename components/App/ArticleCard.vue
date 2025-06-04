@@ -14,11 +14,11 @@
         {{ getReadableDate(article.published) }}
       </time>
       <h2
-        class="text-base font-semibold font-display tracking-tight text-gray-800 dark:text-gray-100 group-hover:text-primary-600"
+        class="text-base font-semibold font-display tracking-tight text-gray-800 dark:text-gray-100 group-hover:text-lightaccent dark:group-hover:text-darkaccent"
       >
         {{ article.title }}
       </h2>
-      <p class="relative z-10 mt-2 text-sm text-gray-600 dark:text-gray-400">
+      <p class="relative z-10 mt-2 text-sm text-gray-600 dark:text-gray-300">
         {{ article.description }}
       </p>
     </article>
