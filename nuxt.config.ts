@@ -26,6 +26,11 @@ export default defineNuxtConfig({
       },
     },
   },
+  colorMode: {
+    preference: 'system',
+    fallback: 'light',
+    classSuffix: '',
+  },
   content: {
     highlight: {
       theme: "github-dark",
