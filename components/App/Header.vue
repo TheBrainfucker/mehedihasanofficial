@@ -5,7 +5,9 @@
     >
       {{ title }}
     </h1>
-    <p class="mt-6 text-base text-gray-600 dark:text-gray-300">
+    <p
+      v-if="description"
+      class="mt-6 text-base text-gray-600 dark:text-gray-300">
       {{ description }}
     </p>
   </div>
@@ -19,7 +21,7 @@ defineProps({
   },
   description: {
     type: String,
-    required: true,
+    required: false,
   },
 });
 </script>

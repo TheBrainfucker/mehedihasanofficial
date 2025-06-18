@@ -25,24 +25,19 @@
 <script lang="ts" setup>
 const links = [
   {
-    name: "Twitter",
-    url: "https://twitter.com/fayazara",
-    icon: "mdi:twitter",
+    name: "Email",
+    url: "mailto:mehedi.hasan@g.bracu.ac.bd",
+    icon: "mdi:email",
   },
   {
     name: "GitHub",
-    url: "https://github.com/fayazara",
+    url: "https://github.com/TheBrainfucker",
     icon: "mdi:github",
   },
   {
     name: "Linkedin",
-    url: "https://www.linkedin.com/in/fayaz-aralikatti/",
+    url: "https://www.linkedin.com/in/mehedihasanofficial",
     icon: "mdi:linkedin",
-  },
-  {
-    name: "Telegram",
-    url: "https://t.me/fayazara",
-    icon: "mdi:telegram",
   },
 ];
 </script>

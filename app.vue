@@ -1,11 +1,11 @@
 <template>
   <NuxtLoadingIndicator :color="loadingColor" />
   <AppNavbar />
-  <div class="h-32"></div>
+  <div class="h-28"></div>
   <UContainer>
     <NuxtPage />
   </UContainer>
-  <div class="h-32"></div>
+  <div class="h-20"></div>
   <AppFooter />
 </template>
 
